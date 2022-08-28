@@ -72,7 +72,7 @@ function LoadingSpin() {
   return (
     <>
       {directions.map(direction => (
-        <div className={classes[direction]}></div>
+        <div className={classes[direction]} key={direction}></div>
       ))}
     </>
   );

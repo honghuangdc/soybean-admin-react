@@ -1,15 +1,6 @@
 module.exports = {
-  extends: '@soybeanjs',
+  extends: 'soybeanjs-react',
   settings: {
-    'import/resolver': {
-      alias: {
-        map: [
-          ['~', '.'],
-          ['@', './src']
-        ],
-        extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', 'mts', '.d.ts']
-      }
-    },
     'import/core-modules': ['uno.css']
   },
   rules: {
